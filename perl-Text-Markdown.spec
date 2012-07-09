@@ -6,12 +6,13 @@
 %define		pnam	Markdown
 %include	/usr/lib/rpm/macros.perl
 Summary:	Text::Markdown - Convert Markdown syntax to (X)HTML
+Summary(pl.UTF-8):	Text::Markdown - konwersja składni Markdown do (X)HTML-a
 Name:		perl-Text-Markdown
 Version:	1.000031
 Release:	1
 License:	BSD
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/B/BO/BOBTFISH/Text-Markdown-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Text/Text-Markdown-%{version}.tar.gz
 # Source0-md5:	88ace17b0debebe88f0ea45a76c397ed
 URL:		http://search.cpan.org/dist/Text-Markdown/
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -35,6 +36,19 @@ Markdown's syntax is designed not as a generic markup language, but
 specifically to serve as a front-end to (X)HTML. You can use
 span-level HTML tags anywhere in a Markdown document, and you can use
 block level HTML tags (like <div> and <table> as well).
+
+%description -l pl.UTF-8
+Markdown to filtr tekstu do HTML-a. Tłumaczy łatwy w czytaniu i
+pisaniu strukturalny format tekstowy do HTML-a. Format tekstowy
+Markdown jest dosyć podobny do czysto tekstowych wiadomości
+elektronicznych i obsługuje właściwości takie jak nagłówki,
+*wyróżnienia*, bloki kodu, bloki cytatów i odnośniki.
+
+Składnia Markdown została zaprojektowana nie jako ogólny język
+znaczników, ale tak, żeby służyła za frontend dla (X)HTML-a. Można
+używać w dowolnym miejscu dokumentu Markdown znaczników HTML poziomu
+linii, a także znaczników HTML poziomu bloków (w tym takich jak <div>
+czy <table>).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
