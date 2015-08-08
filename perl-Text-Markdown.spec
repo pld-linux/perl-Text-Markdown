@@ -9,7 +9,7 @@ Summary:	Text::Markdown - Convert Markdown syntax to (X)HTML
 Summary(pl.UTF-8):	Text::Markdown - konwersja składni Markdown do (X)HTML-a
 Name:		perl-Text-Markdown
 Version:	1.000031
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Text/Text-Markdown-%{version}.tar.gz
