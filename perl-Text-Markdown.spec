@@ -4,7 +4,6 @@
 
 %define		pdir	Text
 %define		pnam	Markdown
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text::Markdown - Convert Markdown syntax to (X)HTML
 Summary(pl.UTF-8):	Text::Markdown - konwersja składni Markdown do (X)HTML-a
 Name:		perl-Text-Markdown
